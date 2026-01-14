@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yusron Laksono - Full Stack Developer</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Background -->
+    <div class="bg-gradient">
+        <div class="gradient-circle"></div>
+        <div class="gradient-circle"></div>
+        <div class="gradient-circle"></div>
+    </div>
+
+    <!-- Scroll Progress -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">&lt;YL /&gt;</div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-badge">
+                <span class="status-dot"></span>
+                <span>Available for work</span>
+            </div>
+            <h1>Yusron Laksono</h1>
+            <p class="hero-subtitle">
+                <span class="highlight">Full Stack Developer</span> dengan passion dalam membangun aplikasi web dan mobile yang efisien, skalabel, dan user-friendly.
+            </p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">
+                    <span>Lihat Portfolio</span>
+                    <span>→</span>
+                </a>
+                <a href="#contact" class="btn btn-secondary">
+                    <span>Hubungi Saya</span>
+                </a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <div class="stat-number">5+</div>
+                    <div class="stat-label">Tahun Pengalaman</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">15+</div>
+                    <div class="stat-label">Project Selesai</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">5</div>
+                    <div class="stat-label">Perusahaan</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+        <div class="section-header">
+            <span class="section-tag">📖 Tentang Saya</span>
+            <h2 class="section-title">Perkenalan</h2>
+            <p class="section-description">
+                Saya memiliki ketertarikan besar pada pengembangan perangkat lunak dan pemrograman berbasis web. Terbiasa bekerja secara tim maupun individu, cepat belajar teknologi baru, dan memiliki semangat tinggi dalam menyelesaikan tantangan teknis.
+            </p>
+        </div>
+        <div class="glass-card">
+            <p style="color: var(--text-secondary); line-height: 1.8; margin-bottom: 1rem;">
+                Fokus saya adalah menciptakan solusi digital yang efisien, skalabel, dan user-friendly. Berkomitmen pada kualitas kode, kolaborasi tim, dan pembelajaran berkelanjutan dalam mengikuti perkembangan teknologi terbaru.
+            </p>
+            <p style="color: var(--text-secondary); line-height: 1.8;">
+                Saat ini saya sedang memperdalam pengetahuan dalam aplikasi mobile dan terus mengeksplorasi teknologi-teknologi baru untuk meningkatkan kemampuan development saya.
+            </p>
+        </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience">
+        <div class="section-header">
+            <span class="section-tag">💼 Karir</span>
+            <h2 class="section-title">Pengalaman Kerja</h2>
+            <p class="section-description">
+                Perjalanan profesional saya dalam dunia teknologi
+            </p>
+        </div>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-card">
+                    <div class="timeline-header">
+                        <div>
+                            <div class="timeline-company">PT. Aku Cinta Indonesia</div>
+                            <h3 class="timeline-title">Back End Developer</h3>
+                        </div>
+                        <span class="timeline-period">Des 2023 - Sekarang</span>
+                    </div>
+                    <div class="timeline-content">
+                        <ul>
+                            <li>Membangun dan mengelola API menggunakan Express.js dan PHP Yii2 untuk aplikasi mobile lintas platform</li>
+                            <li>Mengintegrasikan payment gateway Winpay untuk proses pembayaran digital</li>
+                            <li>Mengimplementasikan OpenStreetMap (OSM) untuk sistem pelacakan order real-time</li>
+                            <li>Mengembangkan sistem pencarian menggunakan Redis dengan Fuzzy Matching</li>
+                            <li>Membuat chatbot interaktif menggunakan Gemini untuk layanan pelanggan</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-card">
+                    <div class="timeline-header">
+                        <div>
+                            <div class="timeline-company">ViuiT</div>
+                            <h3 class="timeline-title">Full Stack Developer</h3>
+                        </div>
+                        <span class="timeline-period">Des 2022 - Des 2023</span>
+                    </div>
+                    <div class="timeline-content">
+                        <ul>
+                            <li>Membangun dashboard internal dengan fitur custom export menggunakan Laravel</li>
+                            <li>Implementasi OpenStreetMap untuk pelacakan kurir secara realtime</li>
+                            <li>Membuat website tracking untuk monitoring order dengan Yii2</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-card">
+                    <div class="timeline-header">
+                        <div>
+                            <div class="timeline-company">Printsoft Surabaya</div>
+                            <h3 class="timeline-title">Full Stack Developer</h3>
+                        </div>
+                        <span class="timeline-period">Mar 2022 - Nov 2022</span>
+                    </div>
+                    <div class="timeline-content">
+                        <ul>
+                            <li>Membuat sistem Point of Sales (POS) dengan fitur auto-detect posisi antrian</li>
+                            <li>Mengembangkan sistem self-service berbasis web untuk pemesanan produk</li>
+                            <li>Membangun fitur pembelian, penjualan, dan pelaporan dengan CodeIgniter 3</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-card">
+                    <div class="timeline-header">
+                        <div>
+                            <div class="timeline-company">IAI Uluwiyah</div>
+                            <h3 class="timeline-title">Full Stack Developer</h3>
+                        </div>
+                        <span class="timeline-period">Jan 2021 - Des 2022</span>
+                    </div>
+                    <div class="timeline-content">
+                        <ul>
+                            <li>Membuat website company profile untuk sekolah menggunakan Laravel</li>
+                            <li>Menampilkan informasi visi & misi, profil guru, data siswa, dan galeri kegiatan</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-card">
+                    <div class="timeline-header">
+                        <div>
+                            <div class="timeline-company">PT Quantum Leap</div>
+                            <h3 class="timeline-title">Full Stack Developer</h3>
+                        </div>
+                        <span class="timeline-period">Apr 2019 - Sep 2020</span>
+                    </div>
+                    <div class="timeline-content">
+                        <ul>
+                            <li>Mengembangkan dan mengelola sistem ERP dengan berbagai modul bisnis</li>
+                            <li>Bertanggung jawab atas pengembangan frontend dan backend</li>
+                            <li>Meningkatkan efisiensi dan skalabilitas aplikasi</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+        <div class="section-header">
+            <span class="section-tag">🚀 Keahlian</span>
+            <h2 class="section-title">Skills & Technologies</h2>
+            <p class="section-description">
+                Tools dan teknologi yang saya kuasai
+            </p>
+        </div>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <div class="skill-header">
+                    <h3 class="skill-title">Frontend</h3>
+                </div>
+                <div class="skill-tags">
+                    <span class="skill-tag">HTML</span>
+                    <span class="skill-tag">CSS</span>
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">Vue.js</span>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-header">
+                    <h3 class="skill-title">Backend</h3>
+                </div>
+                <div class="skill-tags">
+                    <span class="skill-tag">PHP</span>
+                    <span class="skill-tag">Laravel</span>
+                    <span class="skill-tag">Yii</span>
+                    <span class="skill-tag">CodeIgniter</span>
+                    <span class="skill-tag">Node.js</span>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-header">
+                    <h3 class="skill-title">Mobile</h3>
+                </div>
+                <div class="skill-tags">
+                    <span class="skill-tag">Flutter</span>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-header">
+                    <h3 class="skill-title">Database</h3>
+                </div>
+                <div class="skill-tags">
+                    <span class="skill-tag">MySQL</span>
+                    <span class="skill-tag">PostgreSQL</span>
+                    <span class="skill-tag">Redis</span>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-header">
+                    <h3 class="skill-title">Tools</h3>
+                </div>
+                <div class="skill-tags">
+                    <span class="skill-tag">Git</span>
+                    <span class="skill-tag">Figma</span>
+                    <span class="skill-tag">CorelDraw</span>
+                    <span class="skill-tag">WordPress</span>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-header">
+                    <h3 class="skill-title">Soft Skills</h3>
+                </div>
+                <div class="skill-tags">
+                    <span class="skill-tag">Problem Solving</span>
+                    <span class="skill-tag">Critical Thinking</span>
+                    <span class="skill-tag">Time Management</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+        <div class="section-header">
+            <span class="section-tag">💻 Portfolio</span>
+            <h2 class="section-title">Featured Projects</h2>
+            <p class="section-description">
+                Beberapa project yang telah saya kerjakan
+            </p>
+        </div>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-image">📱</div>
+                <div class="project-content">
+                    <div class="project-header">
+                        <h3 class="project-title">Mobile App API</h3>
+                        <p class="project-company">PT. Aku Cinta Indonesia</p>
+                    </div>
+                    <p class="project-description">
+                        Membangun RESTful API untuk aplikasi mobile dengan integrasi payment gateway, real-time tracking, dan chatbot AI untuk meningkatkan user experience.
+                    </p>
+                    <div class="project-tags">
+                        <span class="project-tag">Express.js</span>
+                        <span class="project-tag">Yii2</span>
+                        <span class="project-tag">PostgreSQL</span>
+                        <span class="project-tag">Redis</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">🚚</div>
+                <div class="project-content">
+                    <div class="project-header">
+                        <h3 class="project-title">Logistics Dashboard</h3>
+                        <p class="project-company">ViuiT</p>
+                    </div>
+                    <p class="project-description">
+                        Dashboard internal untuk operasional dengan fitur tracking real-time menggunakan OpenStreetMap dan custom export data.
+                    </p>
+                    <div class="project-tags">
+                        <span class="project-tag">Laravel</span>
+                        <span class="project-tag">Yii2</span>
+                        <span class="project-tag">OpenStreetMap</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">🖨️</div>
+                <div class="project-content">
+                    <div class="project-header">
+                        <h3 class="project-title">Point of Sales System</h3>
+                        <p class="project-company">Printsoft Surabaya</p>
+                    </div>
+                    <p class="project-description">
+                        Sistem POS dengan fitur queue management, self-service ordering, dan reporting terintegrasi untuk efisiensi operasional.
+                    </p>
+                    <div class="project-tags">
+                        <span class="project-tag">CodeIgniter 3</span>
+                        <span class="project-tag">MySQL</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">🏫</div>
+                <div class="project-content">
+                    <div class="project-header">
+                        <h3 class="project-title">School Website</h3>
+                        <p class="project-company">IAI Uluwiyah</p>
+                    </div>
+                    <p class="project-description">
+                        Website company profile modern dan responsif untuk sekolah dengan berbagai fitur informatif dan galeri interaktif.
+                    </p>
+                    <div class="project-tags">
+                        <span class="project-tag">Laravel</span>
+                        <span class="project-tag">MySQL</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">📊</div>
+                <div class="project-content">
+                    <div class="project-header">
+                        <h3 class="project-title">ERP System</h3>
+                        <p class="project-company">PT Quantum Leap</p>
+                    </div>
+                    <p class="project-description">
+                        Sistem ERP lengkap dengan modul produk dan penjualan untuk meningkatkan efisiensi operasional bisnis.
+                    </p>
+                    <div class="project-tags">
+                        <span class="project-tag">PHP</span>
+                        <span class="project-tag">MySQL</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <div class="section-header">
+            <span class="section-tag">📬 Hubungi Saya</span>
+            <h2 class="section-title">Mari Berkolaborasi</h2>
+            <p class="section-description">
+                Tertarik untuk bekerja sama? Jangan ragu untuk menghubungi saya
+            </p>
+        </div>
+        <div class="contact-grid">
+            <div class="contact-card">
+                <div class="contact-icon">✉️</div>
+                <h3>Email</h3>
+                <p><a href="mailto:yusron.dev@gmail.com">yusron.dev@gmail.com</a></p>
+            </div>
+            <div class="contact-card">
+                <div class="contact-icon">📱</div>
+                <h3>Phone</h3>
+                <p><a href="tel:+6289676315535">089676315535</a></p>
+            </div>
+            <div class="contact-card">
+                <div class="contact-icon">💼</div>
+                <h3>LinkedIn</h3>
+                <p><a href="#">Yusron Laksono</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="#" class="social-link">🔗</a>
+                <a href="#" class="social-link">💼</a>
+                <a href="#" class="social-link">📧</a>
+                <a href="#" class="social-link">📷</a>
+            </div>
+            <p class="copyright">© 2026 Yusron Laksono. Dibuat dengan 💚</p>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <button class="back-to-top" id="backToTop">↑</button>
+    <script src="js/script.js"></script>
+</body>
+</html>
