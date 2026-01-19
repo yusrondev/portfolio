@@ -969,3 +969,11 @@ footer {
     opacity: 0;
     animation: scaleIn 0.6s ease forwards;
 }
+
+.icon-img{
+    width: 40px;
+}
+
+.icon-img-sm{
+    width: 11px;
+}
